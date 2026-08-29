@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 test("likes Ioana into Matches", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "Kindred" })).toBeVisible();
-  await expect(page.getByTestId("author-credit")).toContainText("Alghisi Alessandro Paolo");
+  await expect(page.getByTestId("author-credit")).toContainText("Alessandro Alghisi");
 
   await page.getByTestId("finder-window").click();
   await page.keyboard.press("ArrowRight");

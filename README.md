@@ -26,7 +26,7 @@ Ioana likes you back. Matei does not. That is the whole product.
 
 ## Author
 
-### Alghisi Alessandro Paolo
+### Alessandro Alghisi
 
 Senior Software Engineer · Cluj-Napoca, Romania
 
@@ -67,4 +67,4 @@ npm run build
 
 ## License
 
-MIT · © Alghisi Alessandro Paolo
+MIT · © Alessandro Alghisi
