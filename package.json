@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Open-source swipe matching. Like Tinder, without the lock-in: local deck, keyboard, MIT.",
+  "description": "Inspectable matching deck: local profiles, an explicit match predicate, keyboard and pointer, MIT.",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

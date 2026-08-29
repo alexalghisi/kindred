@@ -1,26 +1,25 @@
 # Kindred
 
-Open-source swipe matching. Tinder-shaped, MIT-licensed, no account, no feed
-algorithm — a local deck you can read and fork.
+An inspectable matching deck: profiles, the like/pass gesture, and the match
+predicate are source code, not a remote graph. No account, no ranking feed, MIT
+license.
 
-Built as a **desktop** app on purpose: large cards, round like / pass buttons,
-arrow keys. Not a phone game.
+Built for desktop on purpose — large cards, round actions, keyboard — because
+the interesting question is the rule, not a phone skin.
 
 **React 19 · TypeScript (strict) · Vite 8 · Tailwind CSS 4 · Zustand · Vitest ·
 Playwright**
 
 ---
 
-## Why this exists
+## Model
 
-Closed dating apps own the graph. Kindred is the opposite: the profiles are in
+Closed dating products own the graph. Kindred inverts that: profiles live in
 [`src/lib/profiles.ts`](src/lib/profiles.ts), the match rule is one boolean in
-[`src/lib/swipe.ts`](src/lib/swipe.ts), and the UI is the same Mac window as the
-rest of this portfolio.
+[`src/lib/swipe.ts`](src/lib/swipe.ts), and the chrome matches the rest of this
+portfolio.
 
-Drag a card, hit the round buttons, or use ← / →.
-
-Ioana likes you back. Matei does not. That is the whole product.
+Ioana likes you back. Matei does not. That is the product, fully specified.
 
 ---
 
@@ -37,11 +36,11 @@ and Logs (Mountain View).
 | -------- | --------------------------------------------------------------------------------------- |
 | GitHub   | [github.com/alexalghisi](https://github.com/alexalghisi)                                |
 | LinkedIn | [linkedin.com/in/alghisi](https://www.linkedin.com/in/alghisi)                          |
-| Email    | [alessandro@onlineparentingprograms.com](mailto:alessandro@onlineparentingprograms.com) |
+| Email    | [alexalghisi@gmail.com](mailto:alexalghisi@gmail.com)                                   |
 | Location | Cluj-Napoca, Romania · open to remote / EU / US-friendly timezones                      |
 
 **Hiring?** Open an issue, message me on LinkedIn, or email
-[alessandro@onlineparentingprograms.com](mailto:alessandro@onlineparentingprograms.com).
+[alexalghisi@gmail.com](mailto:alexalghisi@gmail.com).
 
 ---
 
