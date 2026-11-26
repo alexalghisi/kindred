@@ -4,6 +4,10 @@ An inspectable matching deck: profiles, the like/pass gesture, and the match
 predicate are source code, not a remote graph. No account, no ranking feed, MIT
 license.
 
+**Download:** [latest release](https://github.com/alexalghisi/kindred/releases/latest)
+
+![kindred running](docs/preview.png)
+
 Built for desktop on purpose — large cards, round actions, keyboard — because
 the interesting question is the rule, not a phone skin.
 
